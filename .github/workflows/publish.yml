@@ -18,7 +18,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - name: Import and verify family media
+      - name: Import and verify family media and audio
         run: python import_media.py
       - name: Preserve media in repository
         run: |
@@ -26,10 +26,12 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets
           if ! git diff --cached --quiet; then
-            git commit -m "Add family album media [skip ci]"
+            git commit -m "Add verified family photos and audio [skip ci]"
             git push
           fi
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Prepare website
         run: |
           mkdir _site
