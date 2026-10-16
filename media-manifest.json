@@ -1,7 +1,7 @@
 [
   {
     "path": "assets/baba-prayer.m4a",
-    "sha256": "7741a527b6c1e6756afa7e859a52c0270c7e5aaf41e9d78c4d0fbe12b5a2b8df"
+    "sha256": "f40003effea15f20d58792ea10975c8e9ad58e21ef3661d4ec61e1d48e756657"
   },
   {
     "path": "assets/cover.jpg",
@@ -256,12 +256,20 @@
     "sha256": "32b11b85694fad3f0fd94174bb13166e5bc15733cfdfd9b54f792f2f359f0646"
   },
   {
+    "path": "assets/moment-2.mp4",
+    "sha256": "d91b5821fe5ee4e4cf9473c0e5197b34075c50573ef0a7e7bcf2cd7d534f239c"
+  },
+  {
     "path": "assets/moment-3.mp4",
     "sha256": "fae609ffefcd31d2877788b64b07d5f6de021294fa137787891240dc6150d4e8"
   },
   {
     "path": "assets/poster-1.jpg",
     "sha256": "4bf4afcb4cb186587d62a4b806f76b22b89480ee3e2a3395bce140853d9af47c"
+  },
+  {
+    "path": "assets/poster-2.jpg",
+    "sha256": "57e0917d92f6c451897f155e6f8323f6db0f14f1dea3d30205d9f741e23af153"
   },
   {
     "path": "assets/poster-3.jpg",
